@@ -1735,7 +1735,7 @@ footer h5,
 }
 
 footer a {
-  color: var(--dark-body-font-color);
+  color: black;
   text-decoration: none !important;
 }
 
@@ -4599,7 +4599,7 @@ footer h4,
 footer h4,
 footer h5,
 footer h6 {
-  color: #fff;
+  color: #090909;
 }
 
 h1,
