@@ -260,7 +260,7 @@ header.header-bg {
 }
 
 header.transparent {
-  background: white;
+  background: rgba(249,162,5,255);
 }
 
 body:not(.side-layout) header:not(.smaller):not(.header-mobile).header-light.transparent {
