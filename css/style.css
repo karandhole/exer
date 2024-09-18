@@ -260,7 +260,7 @@ header.header-bg {
 }
 
 header.transparent {
-  background: rgba(249,162,5,255);
+  background: #FFCE1B;
 }
 
 body:not(.side-layout) header:not(.smaller):not(.header-mobile).header-light.transparent {
@@ -1703,7 +1703,7 @@ section.no-bg,
 
 footer {
   color: var(--dark-body-font-color);
-  background:rgba(249,162,5,255);
+  background:#FFCE1B;
   padding: 100px 0 0 0;
 }
 
@@ -4869,6 +4869,7 @@ h5.title {
 
 .text-light .subtitle.s2 {
   background: rgba(255, 255, 255, .1);
+  font-size: 30px;
 }
 
 .subtitle.s2 span {
