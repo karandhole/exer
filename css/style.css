@@ -15123,6 +15123,7 @@ p.intro {
 
 .bg-grey {
   background: #f6f6f6;
+  height: 100vh;
 }
 
 .no-bottom .col-md-12 {}
