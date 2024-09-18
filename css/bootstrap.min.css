@@ -704,7 +704,15 @@ progress {
     margin-right: calc(var(--bs-gutter-x) * -.5);
     margin-left: calc(var(--bs-gutter-x) * -.5)
 }
-
+/* Small device compatibility (screens less than 768px) */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column; /* Stack elements vertically */
+        --bs-gutter-x: 0.75rem; /* Adjust gutter size for small screens */
+        margin-right: calc(var(--bs-gutter-x) * -.25);
+        margin-left: calc(var(--bs-gutter-x) * -.25);
+    }
+}
 .row>* {
     flex-shrink: 0;
     width: 100%;
