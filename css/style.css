@@ -1703,7 +1703,7 @@ section.no-bg,
 
 footer {
   color: var(--dark-body-font-color);
-  background:rgb(136, 136, 136);
+  background:rgba(249,162,5,255);
   padding: 100px 0 0 0;
 }
 
